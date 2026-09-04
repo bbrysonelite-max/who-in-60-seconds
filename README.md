@@ -147,3 +147,7 @@ Without `PRIVATE_KEY` set, `who.mjs` refuses before making any network call that
 ## License
 
 MIT. See `LICENSE`.
+
+## Proven with this exact script
+
+On 2026-09-04 this script, unmodified, paid from a fresh wallet (`0xb83518cC5e585FBaD0407dB576C2Ac10fcF2e7e3`): the wallet's first successful lookup settled $0 (first-can-free), the second settled $0.05 — one USDC `Transfer` of 50000 units to `0x701fd2Fc3295Ff2E98d986BD2032A966f54555f7` in Base block 50880443, tx `0xa331fd1163e4c5f7f69b61a991025770e016003615788b0ac14da90d684300c9`. The earlier receipt cited below (`0xde359ce343…`) is an owner proof made with a hand-built payload.
