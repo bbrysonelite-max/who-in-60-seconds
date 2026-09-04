@@ -1,0 +1,23 @@
+{
+  "name": "who-in-60-seconds",
+  "version": "1.0.0",
+  "description": "Pay $0.05 USDC on Base for one legal-entity lookup via x402.",
+  "type": "module",
+  "license": "MIT",
+  "main": "who.mjs",
+  "bin": {
+    "who": "./who.mjs"
+  },
+  "scripts": {
+    "start": "node who.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@x402/evm": "2.25.0",
+    "@x402/fetch": "2.25.0",
+    "dotenv": "17.4.2",
+    "viem": "2.56.3"
+  }
+}
